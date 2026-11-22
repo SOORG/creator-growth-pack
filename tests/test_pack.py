@@ -19,8 +19,8 @@ class PackTests(unittest.TestCase):
     def test_manifest_matches_skills(self) -> None:
         plugin = json.loads((ROOT / ".claude-plugin/plugin.json").read_text(encoding="utf-8"))
         self.assertEqual(plugin["name"], "creator-growth-pack")
-        self.assertEqual(plugin["version"], "1.1.0")
-        self.assertEqual(plugin["license"], "MIT")
+        self.assertEqual(plugin["version"], "1.2.0")
+        self.assertEqual(plugin["license"], "SEE LICENSE — SOORG License v1.0")
         self.assertEqual(
             {p.name for p in (ROOT / "skills").iterdir() if p.is_dir()},
             set(EXPECTED),
@@ -35,7 +35,7 @@ class PackTests(unittest.TestCase):
                 header = content.split("---\n", 2)[1]
                 self.assertRegex(header, rf"(?m)^name: {re.escape(name)}$")
                 self.assertRegex(header, r"(?m)^description: .{30,}$")
-                self.assertRegex(header, r"(?m)^license: MIT$")
+                self.assertRegex(header, r"(?m)^license: SEE LICENSE - SOORG License v1.0$")
                 self.assertIn("[VERIFY]", content)
                 for ref in re.findall(r"`((?:references|assets)/[^`]+)`", content):
                     self.assertTrue((path.parent / ref).is_file(), f"Missing reference: {name}/{ref}")
@@ -43,14 +43,21 @@ class PackTests(unittest.TestCase):
     def test_no_fixed_unverified_commercial_claims(self) -> None:
         for path in (ROOT / "skills").rglob("*.md"):
             with self.subTest(path=str(path.relative_to(ROOT))):
-                text = path.read_text(encoding="utf-8").lower()
+                contents = path.read_text(encoding="utf-8").lower()
                 for claim in ("creators keep 80%", "payout weekly", "instant payouts", "40%+ of calls", "20% to cover payments"):
-                    self.assertNotIn(claim, text)
+                    self.assertNotIn(claim, contents)
 
     def test_license_and_operator_input(self) -> None:
         license_text = (ROOT / "LICENSE").read_text(encoding="utf-8")
-        self.assertIn("MIT License", license_text)
-        self.assertIn("THE SOFTWARE IS PROVIDED", license_text)
+        notice = (ROOT / "NOTICE.md").read_text(encoding="utf-8")
+        self.assertIn("SOORG LICENSE v1.0", license_text)
+        self.assertIn("Sorin Olariu", license_text)
+        self.assertIn("info@hostallin.com", license_text)
+        self.assertIn("UNMODIFIED PRODUCT", license_text)
+        self.assertIn("EARLIER MIT-LICENSED MATERIAL", license_text)
+        self.assertIn("SOORG License v1.0", notice)
+        self.assertTrue((ROOT / "docs/LICENSING-HISTORY.md").is_file())
+        self.assertTrue((ROOT / "docs/RESELLER-GUIDE.md").is_file())
         self.assertTrue((ROOT / "examples/platform-terms.example.md").is_file())
         self.assertFalse((ROOT / "LICENCE.md").exists())
         self.assertFalse((ROOT / "skills/product-listing-copy/listing-formulas.md").exists())

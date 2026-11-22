@@ -25,3 +25,8 @@ Inspected uploaded `creator-growth-pack.zip`: 25 archive entries (including dire
 - The source copyright attribution to Host All in is preserved, not independently verified as the legal owner. Verify ownership/brand rights with the operator before sale.
 - Confirm live platform policy before providing commission, refund, availability or payout representations. No fixed Creator Port offer is shipped as an approved claim.
 - Four core skills are included. The proposed platform-specific bonus skill, consultation calls and separate templates from the original sales brainstorm are not included.
+
+
+## Licensing update (v1.2.0)
+
+This historical v1.1.0 audit records the earlier MIT edition; the current prospective release is licensed under SOORG License v1.0, with Sorin Olariu as the individual copyright holder. The older MIT grants remain effective for recipients of the historical release. See `LICENSE` and `docs/LICENSING-HISTORY.md`.

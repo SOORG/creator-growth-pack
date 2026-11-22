@@ -1,6 +1,14 @@
 # Creator Growth Pack
 
-Four reusable, **instruction-only AI skills** for creator acquisition, digital-product listings, storefront profiles and content planning. Version **1.1.0**.
+Four reusable **instruction-only AI skills** for creator acquisition, digital-product listings, storefront profiles and content planning. Version **1.2.0**.
+
+## Copyright and resale license
+
+**Copyright © 2026 Sorin Olariu, individual.** The official distribution account is **[SOORG on GitHub](https://github.com/SOORG/creator-growth-pack)**. The distributor account is not a separate legal entity. **Licensing contact: info@hostallin.com.**
+
+**Current edition: SOORG License v1.0 — Commercial Use and Unmodified Resale.** See [LICENSE](LICENSE), [NOTICE](NOTICE.md), and [Reseller Guide](docs/RESELLER-GUIDE.md). You may use the Product personally/commercially and resell an **identical, complete original release**. You may not edit, translate, rebrand or redistribute only selected Product files without separate written permission. Every reseller must preserve the licensing files and state that the Product is licensed under **SOORG License v1.0**, credited to Sorin Olariu and originally published via SOORG.
+
+**Historical exception:** v1.1.0 was released under MIT. Those earlier recipients retain rights validly granted by that license; changing the default-branch LICENSE does not cancel their permissions. See [Licensing History](docs/LICENSING-HISTORY.md). This is a proprietary/source-available license, **not an OSI-approved open-source license**. Some platforms may require different license terms.
 
 This repository includes a Claude Code plugin manifest and portable Agent Skills. It is **not a WordPress plugin**, storefront service, email sender or automatic publishing tool. It cannot independently verify facts or execute actions; review every generated output before use.
 
@@ -8,26 +16,26 @@ This repository includes a Claude Code plugin manifest and portable Agent Skills
 | --- | --- |
 | `creator-outreach` | Permission-aware 3-message recruitment sequence and follow-up plan |
 | `product-listing-copy` | Fact-checked listing draft, SEO tags and conditional price rationale |
-| `creator-profile-setup` | Profile copy, design briefs, readiness checklist |
+| `creator-profile-setup` | Profile copy, design briefs and readiness checklist |
 | `social-content-engine` | Capacity-aware 30-day calendar and draft captions |
 
 ## Install
 
 ### Claude Code — plugin
 
-Use Claude Code's plugin installation flow to add this Git repository as a plugin source, or install skill folders directly as below. The `.claude-plugin/plugin.json` manifest identifies the plugin; all four skills live in `skills/`.
+Add this Git repository using the supported Claude Code plugin installation process. The `.claude-plugin/plugin.json` manifest identifies the plugin; all four skills are inside `skills/`. Platform acceptance of custom no-modification license terms should be confirmed separately.
 
 ### Claude Code — individual skills
 
-Clone the repository and copy the contents of `skills/` (each **named skill folder**, not the outer pack folder) into either `~/.claude/skills/` for personal use or `.claude/skills/` in a project. A valid location is `~/.claude/skills/creator-outreach/SKILL.md`.
+Copy the named directories inside `skills/` into `~/.claude/skills/` (personal) or `.claude/skills/` (project) for permitted installation and use; for example `~/.claude/skills/creator-outreach/SKILL.md`. This installation process **does not authorize resale of extracted or modified individual skills**. See the complete-package resale rule in LICENSE.
 
 ### Codex / ChatGPT Skills
 
-Import the individual `skills/<skill-name>/` directories using your product's supported Skills installation flow. Standalone skills are not equivalent to a ChatGPT Plugin; a different publishing process may be required. Avoid copying raw `SKILL.md` text into `.cursor/rules/` as though it were a native Cursor rule.
+Use the supported Skills import flow. Standalone skills are not equivalent to a ChatGPT Plugin. Compatibility should not be represented as verified unless tested.
 
 ### Claude.ai
 
-Create an individual ZIP for each skill with `python3 scripts/package_skills.py`, then upload a skill ZIP through Claude's custom-skill interface where available. The packaging script puts `SKILL.md` at each archive root.
+Generate individual installation ZIPs with `python3 scripts/package_skills.py` and install where supported. **These ZIPs are installation artifacts, not standalone resellable Product packages.** Resellers must supply the unchanged official complete release with its LICENSE and NOTICE, not ZIPs containing extracted skills.
 
 ## Example prompts
 
@@ -38,18 +46,18 @@ Create an individual ZIP for each skill with `python3 scripts/package_skills.py`
 
 ## Accuracy and operator controls
 
-- Any fee, payout schedule, refund period, offer, discount, price or license promise must come from **current, user-provided terms**, not from examples in this pack.
-- Do not invent creator observations, proof, results, file inventories, product benefits, availability or legal compliance.
-- Generate **drafts only**. Never send messages, publish listings, access personal accounts or authorize payments without explicit user approval and an appropriate integration.
-- Follow applicable privacy, direct-marketing and platform rules; honor opt-outs. This pack does not provide legal advice.
-- If evidence is missing, use `[VERIFY]` and show the missing inputs; do not describe a draft as ready to publish.
+- Any fee, payout schedule, refund period, offer, discount, price or license promise must come from **current, verified operator terms**.
+- Do not invent creator observations, proof, results, file inventories, product benefits or legal compliance.
+- Generate **drafts only**. Never send messages, publish listings, access accounts or authorize payments without explicit user approval and appropriate integrations.
+- Follow applicable privacy, direct-marketing and platform rules. Respect opt-outs.
+- If evidence is missing, use `[VERIFY]` and show the missing inputs rather than describing a draft as ready to publish.
 
-## Quality checks
+## Tests and package checks
 
-Run `python3 -m unittest discover -s tests -v` and `python3 scripts/package_skills.py --check` before releasing. Python standard library is the only build/test dependency; skill execution needs no scripts.
+Run `python3 -m unittest discover -s tests -v` and `python3 scripts/package_skills.py --check`. Standard-library Python is the only build/test dependency.
 
-See [AUDIT](docs/AUDIT.md), [ROADMAP](docs/ROADMAP.md), [CHANGELOG](CHANGELOG.md), [example operator terms](examples/platform-terms.example.md), [LICENSE](LICENSE) and [NOTICE](NOTICE.md). The selling notes are draft templates, not guarantees.
+See [Audit](docs/AUDIT.md), [Roadmap](docs/ROADMAP.md), [Changelog](CHANGELOG.md), [Licensing History](docs/LICENSING-HISTORY.md), [LICENSE](LICENSE), and [NOTICE](NOTICE.md).
 
-## Maintainer
+## Contact
 
-Copyright notice: Host All in (as stated in the supplied source). Verify the legal rights holder and commercial publication permissions before selling branded releases. Support contact in supplied source: `support@hostallin.com` (not operationally verified).
+**Sorin Olariu — SOORG** · info@hostallin.com

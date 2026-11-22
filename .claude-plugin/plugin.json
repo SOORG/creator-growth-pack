@@ -1,7 +1,10 @@
 {
   "name": "creator-growth-pack",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Four instruction-only skills for creator outreach, product copy, profiles and social content.",
-  "author": {"name": "Host All in"},
-  "license": "MIT"
+  "author": {
+    "name": "Sorin Olariu",
+    "url": "https://github.com/SOORG"
+  },
+  "license": "SEE LICENSE — SOORG License v1.0"
 }

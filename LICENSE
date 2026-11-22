@@ -1,22 +1,134 @@
-MIT License
+SOORG LICENSE v1.0
+Commercial Use and Unmodified Resale License
+Effective for Creator Growth Pack releases expressly marked with this license
 
-Copyright (c) 2026 Host All in
+Copyright (c) 2026 Sorin Olariu. All rights reserved except as expressly granted below.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Licensor (individual): Sorin Olariu
+Official distribution account: SOORG (GitHub)
+Official project: https://github.com/SOORG/creator-growth-pack
+License contact: info@hostallin.com
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+1. DEFINITIONS
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+"Product" means the complete original Creator Growth Pack release expressly
+distributed by Sorin Olariu through the SOORG GitHub account with this license,
+including its supplied skills, documentation, notices, source files, and any
+other components in that release that the Licensor has the right to license.
 
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
-USE OR OTHER DEALINGS IN THE SOFTWARE.
+"Original Package" means an unchanged and complete copy of that Product
+in its official distributed form.
+
+"Reseller" means a lawful recipient who offers an Original Package to
+another recipient, for a price or without charge.
+
+2. PERMISSIONS
+
+Subject to all terms below, the Licensor grants each lawful recipient a
+worldwide, non-exclusive, royalty-free, non-transfer-of-ownership license to:
+
+(a) download, store, back up, install and use the Product for personal or
+    commercial activities;
+(b) make identical copies reasonably necessary for such use, backup and
+    permitted distribution; and
+(c) redistribute or resell the Original Package, including through successive
+    independent resellers, without a separate reseller fee owed to the
+    Licensor under this license.
+
+Resellers may set their own selling prices. Recipients of lawful Original
+Packages receive the same permissions directly from the Licensor if they
+comply with these terms. No reseller may purport to grant broader rights.
+
+3. STRICT REQUIREMENT: UNMODIFIED PRODUCT
+
+Resale or redistribution is permitted ONLY for the complete Original Package.
+The Product must be passed on without additions, deletions, edits, translations,
+rebranding, removal of files, removal of license notices, changes to any
+instructions, or changes to the internal contents or packaging as supplied.
+No modified or derivative version of the Product may be distributed or sold
+under this license.
+
+The Product may be installed using the technical extraction and copying
+steps necessary for its intended use. These steps do not grant permission
+to redistribute a modified or incomplete version. Individual component
+skills must not be sold as separate products unless Sorin Olariu expressly
+permits it in writing or issues them as separately resellable releases.
+
+Resellers may create their own SEPARATE external sales pages, invoices and
+advertising, provided they do not misrepresent the Product, its authorship,
+its capabilities or their relationship with the Licensor.
+
+4. REQUIRED SOORG ATTRIBUTION
+
+Every redistributed or resold copy must include this complete LICENSE file,
+the original NOTICE.md and all existing copyright and attribution notices,
+unaltered.
+
+Every sales listing or public offer must clearly display this statement:
+
+"Creator Growth Pack — licensed under the SOORG License v1.0.
+Copyright (c) 2026 Sorin Olariu.
+Official source: SOORG on GitHub —
+https://github.com/SOORG/creator-growth-pack"
+
+The seller must identify itself as the seller, and must not claim to be the
+author, copyright holder, SOORG account owner, or an officially appointed
+SOORG reseller unless separately authorized in writing.
+
+5. RESTRICTIONS AND RESERVED RIGHTS
+
+No license is granted to modify, adapt, translate, remix, rebrand, remove
+notices from, sell incomplete components of, or sublicense broader rights
+in the Product. No transfer of copyright or ownership takes place.
+
+The names "SOORG" and "Creator Growth Pack" may be used to identify the
+unaltered Product and display the mandatory attribution. No additional
+trademark, logo or endorsement rights are granted.
+
+The Product must not be used or marketed in a way that violates applicable
+law or third-party rights. This license grants no rights to independently
+owned third-party materials that carry separate terms.
+
+6. OUTPUTS CREATED USING THE PRODUCT
+
+The restrictions on changing the Product do not by themselves restrict a
+user from editing or commercially using the user's own text, creative drafts
+or other outputs generated while using the Product, to the extent the user
+has the necessary rights. Such outputs must not falsely claim that they are
+official SOORG products. Third-party platform and model terms still apply.
+
+7. DURATION AND TERMINATION
+
+The grant continues while the recipient complies with these terms.
+On a material breach, the Licensor may notify the recipient at an available
+contact address; if the breach is not remedied within 30 calendar days after
+notice, this license ends for that recipient. Unauthorized modified copies
+may not be sold during the cure period. A recipient's termination does not
+automatically revoke the rights of downstream recipients who received
+lawful Original Packages and comply independently.
+
+8. NO WARRANTY; LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE PRODUCT IS PROVIDED
+"AS IS", WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED. THE LICENSOR
+IS NOT LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES
+ARISING FROM USE OR DISTRIBUTION. NOTHING IN THIS LICENSE EXCLUDES RIGHTS
+OR LIABILITIES THAT CANNOT LAWFULLY BE EXCLUDED, INCLUDING MANDATORY
+CONSUMER PROTECTIONS.
+
+9. EARLIER MIT-LICENSED MATERIAL
+
+Earlier Creator Growth Pack releases, including v1.1.0, were published
+under the MIT License. This SOORG License is not retroactive and does not
+purport to cancel permissions already lawfully granted under MIT for those
+earlier copies. The applicable license depends on the actual release and
+the rights validly granted for it. If the Licensor does not exclusively own
+a component, any necessary third-party permissions remain applicable.
+
+10. CONTACT AND SPECIAL PERMISSIONS
+
+For requests to modify, rebrand, translate, sell components individually,
+or obtain additional written permission, contact info@hostallin.com.
+
+This is a custom, source-available commercial redistribution license,
+NOT an OSI-approved open-source license and NOT the MIT License.

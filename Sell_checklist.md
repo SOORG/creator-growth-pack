@@ -1,12 +1,14 @@
-# Selling checklist (draft; operator approval required)
+# Seller release checklist — SOORG License v1.0
 
-- [ ] Confirm the legal owner of this material, the rights to redistribute it, and trademark permissions for Creator Port/Host All in.
-- [ ] Verify that all four skill folders, reference files and `LICENSE` are shipped in the chosen package.
-- [ ] Run `python3 -m unittest discover -s tests -v` and `python3 scripts/package_skills.py --check`.
-- [ ] Check claims, prices and platform terms against the live product and commercial policy.
-- [ ] Test imports in each *advertised* AI product; do not imply verified compatibility without testing.
-- [ ] Prepare screenshots from actual output, not simulated results or fake customer examples.
-- [ ] Publish a listing that clearly describes the four included skills and their limits.
-- [ ] Clarify refund, support and license terms with qualified legal/commercial review.
-- [ ] Offer optional extras only when implemented, documented, priced and deliverable.
-- [ ] Verify any directory/marketplace accepts this pack before claiming it is listed.
+- [ ] Verify the Product offered is the **official, complete, unchanged v1.2.0 or later SOORG-licensed release**.
+- [ ] Include every original Product file and the unchanged LICENSE and NOTICE.md.
+- [ ] Show this attribution on the sales page: “Creator Growth Pack — licensed under the SOORG License v1.0. Copyright (c) 2026 Sorin Olariu. Official source: SOORG on GitHub — https://github.com/SOORG/creator-growth-pack”.
+- [ ] Identify your own seller business accurately, without claiming to be the original author or officially appointed reseller.
+- [ ] Do not sell isolated skills, repackaged/renamed products, translated files or edited content without permission.
+- [ ] Confirm you hold the current edition, not an earlier MIT edition; historical MIT rights are not retroactively withdrawn.
+- [ ] Verify product claims, file inventory, support, taxes, refunds and platform rules.
+- [ ] Run the structural and packaging checks if publishing a new upstream release; the reseller must not alter the original package.
+- [ ] Check compatibility in each AI product advertised.
+- [ ] Obtain specialist legal review of any jurisdiction-specific consumer/reseller terms.
+
+Copyright/licensing contact: **info@hostallin.com**.

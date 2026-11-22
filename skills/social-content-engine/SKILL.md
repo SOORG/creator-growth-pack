@@ -1,7 +1,7 @@
 ---
 name: social-content-engine
 description: Builds realistic 30-day calendars and draft social posts for digital products using verified claims and the user's publishing capacity. Use for launch plans, social captions, a monthly content schedule or promotional hooks.
-license: MIT
+license: SEE LICENSE - SOORG License v1.0
 ---
 
 # Social Content Engine

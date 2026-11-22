@@ -1,7 +1,7 @@
 ---
 name: creator-outreach
 description: Drafts opt-out-aware creator recruitment and partnership email sequences using verified platform terms and real personalization. Use for creator outreach, a cold email draft, a partnership pitch or follow-up copy.
-license: MIT
+license: SEE LICENSE - SOORG License v1.0
 ---
 
 # Creator Outreach
