@@ -1,5 +1,6 @@
-# Package layout (v1.1.0)
+# Package layout (v1.2.0)
 
+- `docs/RESELLER-GUIDE.md`, `docs/LICENSING-HISTORY.md` — resale guidance and earlier MIT rights
 - `.claude-plugin/plugin.json` — Claude Code plugin manifest
 - `README.md`, `LICENSE`, `NOTICE.md`, `CHANGELOG.md`
 - `skills/creator-outreach/SKILL.md` and `references/outreach-frameworks.md`

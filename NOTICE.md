@@ -1,9 +1,23 @@
-# NOTICE
+# NOTICE — SOORG License
 
-Creator Growth Pack — Creator Port / Host All in branding as provided in the source archive.
+**Product:** Creator Growth Pack (v1.2.0 and future editions expressly designated under these terms)  
+**License:** SOORG License v1.0 — Commercial Use and Unmodified Resale  
+**Copyright:** © 2026 Sorin Olariu (individual copyright holder)  
+**Official GitHub distributor:** [SOORG](https://github.com/SOORG/creator-growth-pack)  
+**Contact:** info@hostallin.com
 
-Copyright (c) 2026 Host All in. Released under the MIT License; see `LICENSE`.
+## Required attribution for every resale listing
 
-The copyright ownership, trademark permissions and accuracy of any external sales claims have **not** been independently verified. Do not interpret brand mentions as endorsement by an AI platform.
+> Creator Growth Pack — licensed under the SOORG License v1.0.  
+> Copyright (c) 2026 Sorin Olariu.  
+> Official source: SOORG on GitHub — https://github.com/SOORG/creator-growth-pack
 
-The MIT license requires retaining its copyright and permission notices in copies or substantial portions. Additional attribution to the project in marketing materials is appreciated but is **not a separate license condition**.
+Reselling the **complete, unchanged original release** is allowed under the attached LICENSE.
+Changing or rebranding product files, removing notices, claiming authorship
+or reselling isolated component skills is not allowed without express permission.
+
+This is a custom license; it is **not MIT** and is **not an OSI-approved
+open-source license**. Earlier releases, including v1.1.0, were distributed
+under MIT; their historical grants are not revoked by this notice.
+The SOORG GitHub account identifies the publication channel, not a distinct
+legal copyright holder. Any third-party rights must still be respected.

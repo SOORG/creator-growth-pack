@@ -1,7 +1,7 @@
 ---
 name: creator-profile-setup
 description: Creates a creator storefront profile draft, avatar and banner briefs and a platform-aware readiness checklist. Use to set up or optimize a creator bio, storefront profile or onboarding materials.
-license: MIT
+license: SEE LICENSE - SOORG License v1.0
 ---
 
 # Creator Profile Setup

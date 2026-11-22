@@ -1,7 +1,7 @@
 ---
 name: product-listing-copy
 description: Drafts evidence-based titles, descriptions, tags, format inventories and conditional pricing for digital products. Use for a marketplace listing, product description, search tags or digital product pricing.
-license: MIT
+license: SEE LICENSE - SOORG License v1.0
 ---
 
 # Product Listing Copy
